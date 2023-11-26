@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Space+Grotesk:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  color: white;
+}
+
+body {
+  background-color:hsl(218, 28%, 13%);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1440px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    max-width: 375px;
+    box-sizing: content-box;
+  }
+  .navegacion {
+    display: flex;
+    margin: 0;
+    padding: 1%;
+    font-size: 10px;
+    justify-content: space-around;
+  }
+  .navegacion__logo {
+    width: 25%;
+  }
+
+  .navegacion__enlaces {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .hero-container {
+    padding-top: 30px;
+    background-image: url(public/icons/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .hero__image {
+    width: 90%;
+  }
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    margin: 0;
+  }
+
+  .descripcion-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+  }
+
+  .descripcion__image {
+    width: 90%;
+  }
+  .reseñas__container {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    margin: 0;
+    margin-left: 30px;
+  }
+
+  .input__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    min-width: 315px;
+  }
+
+  .input__email {
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  .footer-container {
+    min-width: 375px;
+  }
+  .footer__logo-container {
+    margin-top: 50px;
+  }
+  .footer__enlaces-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .footer__contact {
+    margin-top: 20px;
+  }
+  .footer__email {
+    margin-top: 20px;
+  }
+  .footer__about {
+    margin-top: 20px;
+  }
+  .footer__socials {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+}

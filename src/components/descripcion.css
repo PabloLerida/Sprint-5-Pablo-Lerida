@@ -1,0 +1,28 @@
+.descripcion-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  justify-content: center;
+  gap: 5px;
+}
+.text-container {
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  padding-left: 30px;
+}
+.descripcion__link {
+  color: hsl(176, 68%, 64%);
+  text-decoration: none;
+}
+.descripcion__text{
+  margin-top: 10px;
+}
+.link-container {
+  display: inline-flex;
+  gap: 5px;
+  border-bottom: solid hsl(176, 68%, 64%) 1px;
+  margin-top: 10px;
+}

@@ -1,0 +1,47 @@
+.reseñas__container {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+.reseñas__content {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 90px 20px 1fr;
+  grid-template-areas:
+    "a a"
+    "b c"
+    "b d";
+  width: 320px;
+  background-color:   hsl(219, 30%, 18%);
+  padding: 20px;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.quote {
+  grid-area: a;
+}
+.profile-image {
+  grid-area: b;
+}
+.author {
+  grid-area: c;
+}
+.title {
+  grid-area: d;
+}
+.reseñas__image {
+  position: absolute;
+  top: 70px;
+  left: 60px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 3px;
+}

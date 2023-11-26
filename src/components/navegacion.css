@@ -1,0 +1,18 @@
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:  hsl(217, 28%, 15%);
+}
+
+.navegacion__enlaces {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navegacion__enlaces--item {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
